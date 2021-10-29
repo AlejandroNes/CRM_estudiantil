@@ -1,0 +1,25 @@
+{
+  "clientes": [
+    {
+      "nombre": "Alejandro",
+      "carrera": "Informatica",
+      "edad": "25",
+      "nota": "89",
+      "id": 1
+    },
+    {
+      "nombre": "Fanny",
+      "carrera": "Contaduria",
+      "edad": "24",
+      "nota": "69",
+      "id": 3
+    },
+    {
+      "nombre": "Darlin",
+      "carrera": "Contabilidad",
+      "edad": "23",
+      "nota": "78",
+      "id": 4
+    }
+  ]
+}
