@@ -10,6 +10,7 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
@@ -34,29 +35,28 @@
                     <div class="container mt-5">
                         <div class="row">
                             <div class="col col-6 offset-3 px-5">
-                                <form class="p-3 border border-warning shadow">
+                                <form class="p-3 border border-warning shadow" id="formulario">
                                     <div class="form-group">
-                                        <label for="nombre">Ingrese nombre</label>
-                                        <input type="text" class="form-control" id="nombre">
+                                        <input type="text" class="form-control" placeholder="ingrese nombre" id="nombre">
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="carrera">Ingrese Carrera</label>
-                                        <input type="text" class="form-control" id="carrera">
+                                        <input type="text" class="form-control" placeholder="ingrese carrera" id="carrera">
                                     </div> 
 
                                     <div class="form-group">
-                                        <label for="edad">Ingrese Edad</label>
-                                        <input type="number" class="form-control" id="edad">
+                                        <input type="number" class="form-control" placeholder="ingrese edad" id="edad">
                                     </div>  
 
                                     <div class="form-group">
-                                        <label for="nota">Ingrese Nota</label>
-                                        <input type="number" class="form-control" id="nota">
-                                    </div>  
+                                        <input type="number" class="form-control" placeholder="ingrese nota" id="nota">
+                                    </div>
+                                    <input type="hidden" name="id" id="id">
 
                                     <button type="submit" class="btn btn-warning w-100">EDITAR</button>
                                 </form>
+                                <div id="mensaje">
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -1,25 +1,25 @@
 {
   "clientes": [
     {
-      "nombre": "Alejandro",
+      "nombre": "Nestor",
       "carrera": "Informatica",
       "edad": "25",
-      "nota": "89",
+      "nota": "92",
       "id": 1
     },
     {
-      "nombre": "Fanny",
-      "carrera": "Contaduria",
-      "edad": "24",
-      "nota": "69",
-      "id": 3
-    },
-    {
-      "nombre": "Darlin",
+      "nombre": "Alejandra",
       "carrera": "Contabilidad",
       "edad": "23",
       "nota": "78",
       "id": 4
+    },
+    {
+      "nombre": "Fanny",
+      "carrera": "Ingles",
+      "edad": "24",
+      "nota": "95",
+      "id": 5
     }
   ]
 }

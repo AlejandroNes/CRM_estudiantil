@@ -36,3 +36,22 @@ export const eliminarDato = async (id) => {
         method: "DELETE",
     }) 
 }
+
+//mostrar datos de un estudiante
+export const mostrarDatosIndividuales = async (id) => {
+    const respuesta = await fetch(`${url}/${id}`);
+    const data = await respuesta.json();
+    return data;
+}
+
+//actualizar datos
+export const actualizarDatos = async (estudiante,id) => {
+    await fetch(`${url}/${id}`,{
+        method: "PUT",
+        body: JSON.stringify(estudiante),
+        headers:{
+            "Content-Type": "application/json"
+        }
+    })
+    window.location.href = "index.html";
+}

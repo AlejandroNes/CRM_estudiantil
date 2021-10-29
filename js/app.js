@@ -24,7 +24,7 @@ function mostrarHTML(datos){
         <td>${edad}</td>
         <td>${nota}</td>
         <td>
-            <a href="editarEstudiante.html" class="btn btn-sm btn-warning mx-1" data-id="${id}">
+            <a href="editarEstudiante.html?id=${id}" class="btn btn-sm btn-warning mx-1" data-id="${id}">
                 <i class="fas fa-edit"></i>
             </a>
             <a href="#" class="btn btn-sm btn-danger mx-1 delete" data-id="${id}">
